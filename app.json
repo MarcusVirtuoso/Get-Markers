@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Get Markers",
+    "slug": "get-markers",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apptcc2.marcus"
+    },
+    "android": {
+      "package": "com.apptcc2.marcus"
+    },
+    "description": "Aplicativo de mapas para facilitar a mobilidade urbana de pessoas com deficiência visual. O app é colaborativo, ou seja, conta com a ajudar de pessoas que possam ajudar com a inserção de áudios descritivos sobre os locais marcados."
+  }
+}
