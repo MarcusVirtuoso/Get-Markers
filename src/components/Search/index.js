@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import { View, StyleSheet } from 'react-native';
 import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete';
 
 function Search({ onLocationSelected }) {
@@ -81,23 +80,9 @@ function Search({ onLocationSelected }) {
           height: 58,
         },
     }}
-    // TODO - Corrigir currentLocation depois
     // currentLocation={true}
     currentLocationLabel="Localização atual"
     nearbyPlacesAPI="GooglePlacesSearch"
-    //GoogleReverseGeocodingQuery={
-    //  {
-    //    // available options for GoogleReverseGeocoding API : https://developers.google.com/maps/documentation/geocoding/intro
-    //  }
-    //}
-    //GooglePlacesSearchQuery={{
-    //  rankby: 'distance',
-    //  types: 'food',
-    //}}
-    //filterReverseGeocodingByTypes={[
-    //  'locality',
-    //  'administrative_area_level_3',
-    //]}
     debounce={200}
 	  />
 	);
