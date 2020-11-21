@@ -60,7 +60,7 @@ export default class App extends React.Component {
   getPointName = (lat, lng) => {
     console.log(lat, lng);
     let adressName = ""
-    Geocoder.init("AIzaSyBT_OyI5VK5tBMVEGfLa9cPfv-LIX9Sqb0", {language: "pt"});
+    Geocoder.init(API_MAP_KEY, {language: "pt"});
     Geocoder.from(lat, lng).then(
       json => {
         fullAdressName = json.results[0].formatted_address;

@@ -9,7 +9,7 @@ function Search({ onLocationSelected }) {
 	 	placeholder= "Para onde?"
 		placeholderTextColor="#333"
 		query={{
-		  key: 'AIzaSyBT_OyI5VK5tBMVEGfLa9cPfv-LIX9Sqb0',
+		  key: API_MAP_KEY,
 		  language: "pt",
 		}}
 		onPress={onLocationSelected}
